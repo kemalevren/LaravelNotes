@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes;
+namespace kemalevren\LaravelNotes;
 
 use Arcanedev\Support\Providers\PackageServiceProvider;
 
