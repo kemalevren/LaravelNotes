@@ -2,16 +2,17 @@
 
 declare(strict_types=1);
 
-namespace kemalevren\LaravelNotesTraits;
+namespace kemalevren\LaravelNotes\Traits;
 
 use Illuminate\Database\Eloquent\Model;
+use kemalevren\LaravelNotes\Models\Note;
 
 /**
  * Trait     HasOneNote
  *
  * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
  *
- * @property  \kemalevren\LaravelNotesModels\Note  note
+ * @property  Note  note
  */
 trait HasOneNote
 {
@@ -42,14 +43,14 @@ trait HasOneNote
      * @param  \Illuminate\Database\Eloquent\Model|null  $author
      * @param  bool                                      $reload
      *
-     * @return \kemalevren\LaravelNotesModels\Note
+     * @return Note
      */
     public function createNote($content, $author = null, $reload = true)
     {
         if ($this->note)
             $this->note->delete();
 
-        /** @var \kemalevren\LaravelNotesModels\Note $note */
+        /** @var Note $note */
         $note = $this->note()->create(
             $this->prepareNoteAttributes($content, $author)
         );

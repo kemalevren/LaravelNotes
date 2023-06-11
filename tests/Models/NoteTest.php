@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace kemalevren\LaravelNotesTests\Models;
 
-use kemalevren\LaravelNotesModels\Note;
+use kemalevren\LaravelNotes\Models\Note;
 use kemalevren\LaravelNotesTests\Stubs\Factories\{PostFactory, UserFactory, UserWithAuthorIdFactory};
 use kemalevren\LaravelNotesTests\Stubs\Models\User;
 use kemalevren\LaravelNotesTests\TestCase;

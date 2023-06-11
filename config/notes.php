@@ -25,7 +25,7 @@ return [
 
     'notes' => [
         'table' => 'notes',
-        'model' => kemalevren\LaravelNotesModels\Note::class
+        'model' => kemalevren\LaravelNotes\Models\Note::class
     ],
 
 ];

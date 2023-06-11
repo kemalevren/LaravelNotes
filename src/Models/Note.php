@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace kemalevren\LaravelNotesModels;
+namespace kemalevren\LaravelNotes\Models;
 
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;

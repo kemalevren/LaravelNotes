@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use kemalevren\LaravelNotesDatabase\Migration;
+use kemalevren\LaravelNotes\Database\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
 /**

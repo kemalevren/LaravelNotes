@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace kemalevren\LaravelNotesDatabase;
+namespace kemalevren\LaravelNotes\Database;
 
 use Arcanedev\Support\Database\Migration as BaseMigration;
 

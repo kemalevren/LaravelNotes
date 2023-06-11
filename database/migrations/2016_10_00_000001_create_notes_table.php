@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use kemalevren\LaravelNotesDatabase\Migration;
+use kemalevren\LaravelNotes\Database\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
 /**
@@ -10,7 +10,7 @@ use Illuminate\Database\Schema\Blueprint;
  *
  * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
  *
- * @see \kemalevren\LaravelNotesModels\Note
+ * @see \kemalevren\LaravelNotes\Models\Note
  */
 return new class extends Migration
 {

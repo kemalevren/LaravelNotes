@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace kemalevren\LaravelNotesTraits;
+namespace kemalevren\LaravelNotes\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
@@ -43,11 +43,11 @@ trait HasManyNotes
      * @param  \Illuminate\Database\Eloquent\Model|null  $author
      * @param  bool                                      $reload
      *
-     * @return \kemalevren\LaravelNotesModels\Note
+     * @return \kemalevren\LaravelNotes\Models\Note
      */
     public function createNote($content, $author = null, $reload = true)
     {
-        /** @var \kemalevren\LaravelNotesModels\Note $note */
+        /** @var \kemalevren\LaravelNotes\Models\Note $note */
         $note = $this->notes()->create(
             $this->prepareNoteAttributes($content, $author)
         );

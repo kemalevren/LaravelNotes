@@ -11,7 +11,7 @@ First things first, edit your eloquent model by using the `kemalevren\LaravelNot
 ```php
 <?php namespace App;
 
-use kemalevren\LaravelNotesTraits\HasManyNotes;
+use kemalevren\LaravelNotes\Traits\HasManyNotes;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model {
@@ -45,7 +45,7 @@ You can also specify how you want to add the `author` id by using the `getCurren
 ```php
 <?php namespace App;
 
-use kemalevren\LaravelNotesTraits\HasManyNotes;
+use kemalevren\LaravelNotes\Traits\HasManyNotes;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model {

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace kemalevren\LaravelNotesTests\Stubs\Models;
 
-use kemalevren\LaravelNotesTraits\HasOneNote;
+use kemalevren\LaravelNotes\Traits\HasOneNote;
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;
 

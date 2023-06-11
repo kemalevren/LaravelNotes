@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace kemalevren\LaravelNotesTests\Stubs\Models;
 
-use kemalevren\LaravelNotesTraits\{AuthoredNotes, HasManyNotes};
+use kemalevren\LaravelNotes\Traits\{AuthoredNotes, HasManyNotes};
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;
 

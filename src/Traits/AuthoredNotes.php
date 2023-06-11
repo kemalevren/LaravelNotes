@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
-namespace kemalevren\LaravelNotesTraits;
+namespace kemalevren\LaravelNotes\Traits;
 
-use kemalevren\LaravelNotesModels\Note;
+use Illuminate\Database\Eloquent\Collection;
+use kemalevren\LaravelNotes\Models\Note;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
@@ -12,7 +13,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  *
  * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
  *
- * @property  \Illuminate\Database\Eloquent\Collection  authoredNotes
+ * @property  Collection  authoredNotes
  */
 trait AuthoredNotes
 {
